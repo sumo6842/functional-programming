@@ -1,4 +1,4 @@
-package kickstart;
+package kick_start;
 
 import lombok.Value;
 
