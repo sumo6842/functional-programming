@@ -125,6 +125,9 @@ public class Main {
         matcherPet.apply("This is Poodle")
                 .apply(breedMatcher)
                 .accept((new Pet()).setAnimal("dog").setBreed("poodle"));
+        matcherPet.apply("Pet for 800$ or less: ")
+                .apply(priceMatcher)
+                .accept(new Pet().setPrice(800.0));
 
     }
 
